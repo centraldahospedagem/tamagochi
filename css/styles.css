@@ -5,7 +5,9 @@
 
 body {
   font-family: "Pokemon Solid";
-  background-image: url('/images/cutewall.jpg');
+  background-image: url('../images/cutewall.jpg');
+  text-align: center;
+  color:black;
 }
 
 h1 {
@@ -34,10 +36,6 @@ h1 {
   #pokemon {
     width: 190px;
     height: 190px;
-  }
-
-  body {
-    text-align: center;
   }
 
   h1 {
@@ -72,4 +70,9 @@ h1 {
     width: 75px;
     margin-top: -10px;
   }
+}
+
+.body{
+  margin-left:50px;
+  margin-top: 150px; 
 }
